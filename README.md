@@ -6,10 +6,10 @@ Process
 ----------
 The data was processed as follows :  
 1. Each dataset was loaded and prepared as follows:  
-    a. it was decorated with column names from features.txt.  
-    b. the unwanted column names were removed  
-    c. the column names were processed via some pattern matching to make them more descriptive.  
-    d. each row was decorated with the activity and subject descriptions  
+    1.1. it was decorated with column names from features.txt.  
+    1.2. the unwanted column names were removed  
+    1.3. the column names were processed via some pattern matching to make them more descriptive.  
+    1.4. each row was decorated with the activity and subject descriptions  
 2. The training and the test observations were merged into a single dataset.  
 3. Mean averages were calculated and analysed by Activity description and subject to create a the tidy data set.  
 
